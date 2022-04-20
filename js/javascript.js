@@ -14,5 +14,5 @@ async function addDistrictsGeoJson(url) {
  polygons.addTo(map)
 }
 
-addDistrictsGeoJson('geojson/tartu_city_districts_edu.geojson')
+addDistrictsGeoJson('geojson_2/tartu_city_districts_edu.geojson')
 

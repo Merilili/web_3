@@ -9,6 +9,12 @@ div {
   height: 100%;
   border-radius: 10px;
 }
+.container {
+	padding-left:5%;
+	padding-right:5%;
+	border: 1px solid black;
+	background-color: #04aa6d;
+}
 div1{border-style: solid;
 	border-color: navy ;
 	border-width: thin;

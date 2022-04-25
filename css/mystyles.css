@@ -1,23 +1,27 @@
 body {
   background-color: lightblue;
 }
-div {
+.kast {
 	  border-style: solid;
 	  border-color: navy ;
-  border-width: thin;
+	border-width: thin;
      height: 100%;
-  border-radius: 10px;
+	border-radius: 10px;
 }
 .pilt {width:100%;height:auto}
 .container {
-	padding-left:5%;
-	padding-right:5%;
+	border-style: solid;
+	 border-color: navy ;
+	border-width: thin;
+     height: 100%;
+	border-radius: 10px;
+	padding-left:10%;
+	padding-right:10%;
 	margin-top: 20px;
 	background-color: #48e5f0;
 }
 .map {
 	height:700px;
-	border: 1px solid grey;
 	background-color: grey;
 }
 div1{border-style: solid;

@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta charset="utf-8" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/> 
 <link rel="stylesheet" href="css/mystyles.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/> 
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+	
 <title>Merili GIS</title>
 </head>
+
 <body>
-//bänner
-<div>
-<img src="img\banner.jpg" width = "100%" height = "auto" alt "kaalud"/>
+<div class="pilt">
+<img src="img\banner.jpg" alt "kaalud"/>
 </div>
-		
 
 <nav>
 <a	href="https://www.ilmateenistus.ee/">Map source</a>
 <a	href="https://www.ilmateenistus.ee/ilm/ilmavaatlused/vaatlusandmed/">Ilmavaatlusandmed</a>
 <a href="https://ut.ee">Tartu University</a>
 </nav>
-<div class = "title">
+<div>
 <h1>My First html page heading</h1>
 </div>
 	<div class="container">
 		<p> Siia tuleb kaart</p>
 			<div class="map" id="map">
-			<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-			<script src="js/javascript.js"></script>
+				<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+				<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+				<script src="js/javascript.js"></script>
 			</div>
 	</div>
-		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-		<script src="js/javascript.js"></script>
+		
  	
 <footer class="foot">
 <p> &copy Merili Lindpere, 2022</p>

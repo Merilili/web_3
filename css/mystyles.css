@@ -8,7 +8,8 @@ body {
      height: 100%;
 	border-radius: 10px;
 }
-.pilt {width:100%;height:auto}
+.pilt {width:100%;height:auto
+}
 .active {
 	color: fuchsia;
 	text-decoration:underline navy;

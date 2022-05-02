@@ -9,11 +9,15 @@ body {
 	border-radius: 10px;
 }
 .pilt {width:100%;height:auto}
+.active {
+	color: fuchsia;
+	text-decoration:underline navy;
+}
 .container {
 	border-style: solid;
 	 border-color: navy;
 	border-width: thin;
-     height: 100%;
+     	height: 100%;
 	border-radius: 10px;
 	padding-left:10%;
 	padding-right:10%;

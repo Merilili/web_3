@@ -7,33 +7,43 @@
 </head>
 
 <body>	
-<div>
+<div><!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/mystyles.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/> 
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+	
+<title>Merili GIS</title>
+</head>
+
+<body>
+<div class="pilt">
 <img src="img\banner.jpg" alt "kaalud"/>
 </div>
-<li>
-	<a class "normal" href="Basic Map">Basic Map</a>
-	<a class "active" href="heatmap.html">Heatmap</a>
-	<a class "normal" href="chloroplethmap.html">Chloropleth Map</a>
-	</li>
-		
 <nav>
-<a	href="heatmap.html">Heatmap</a>
-<a	href="Leaflet.heat"
-<script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.min.js"></script>
-<script src="js/heatmap.js"></script>
-	
-</nav>
-<!--3.title-->
-<div><h1>My First html page heading</h1></div>
-<!--4.container lisa openlayers map element-->
-	
- <div1>
- <p>The first paragraph of our first page</p>
- </div1>
-		<!--5.map element inside 4.container-->
-		<!--6.footer-->
- <p>The second paragraph of our first page. </p>
-	 
-	</body>
-</html>
+	<a class "normal" href="Basic Map">Basic Map</a>
+	<a class "active" href="Heatmap">Heatmap</a>
+	<a class "normal" href="Choropleth Map">Choropleth Map</a>
+	</nav>
 
+<div class="kast">
+<h1>Heatmap</h1>
+</div>
+	<button onclick="defaultMapSettings()">Default view</button>
+	<div class="container">
+			<div class="map" id="map">
+				<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+				<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet-heat.min.js"></script>
+				<script src="js/heatmap.js"></script>
+			</div>
+	</div>
+		
+ 	
+<footer class="foot">
+<p> &copy Merili Lindpere, 2022</p></footer>
+</body>
+</html>
